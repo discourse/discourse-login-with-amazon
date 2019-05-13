@@ -1,0 +1,10 @@
+plugins:
+  enable_login_with_amazon:
+    default: false
+    validator: "EnableLoginWithAmazonValidator"
+  login_with_amazon_client_id:
+    default: ""
+    secret: true
+  login_with_amazon_client_secret:
+    default: ""
+    secret: true
