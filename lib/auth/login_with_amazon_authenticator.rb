@@ -12,11 +12,11 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
   end
 
   def register_middleware(omniauth)
-    omniauth.provider(
-      :amazon,
-      SiteSetting.login_with_amazon_client_id,
-      SiteSetting.login_with_amazon_client_secret,
-      scope: "profile"
-    )
+    omniauth.provider :amazon, setup: lambda { |env|
+      strategy = env["omniauth.strategy"]
+      strategy.options[:client_id] = SiteSetting.login_with_amazon_client_id
+      strategy.options[:client_secret] = SiteSetting.login_with_amazon_client_secret
+      strategy.options[:scope] = "profile"
+    }
   end
 end
