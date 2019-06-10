@@ -16,7 +16,7 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
       strategy = env["omniauth.strategy"]
       strategy.options[:client_id] = SiteSetting.login_with_amazon_client_id
       strategy.options[:client_secret] = SiteSetting.login_with_amazon_client_secret
-      strategy.options[:scope] = "profile"
+      strategy.options[:scope] = SiteSetting.login_with_amazon_scope
     }
   end
 end
