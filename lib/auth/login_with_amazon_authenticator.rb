@@ -7,10 +7,6 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
     SiteSetting.enable_login_with_amazon
   end
 
-  def primary_email_verified?(auth_token)
-    false
-  end
-
   def register_middleware(omniauth)
     omniauth.provider :amazon, setup: lambda { |env|
       strategy = env["omniauth.strategy"]
