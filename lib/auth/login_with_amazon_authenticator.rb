@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
   def name
     'amazon'

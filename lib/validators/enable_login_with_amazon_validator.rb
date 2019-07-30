@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class EnableLoginWithAmazonValidator
   def initialize(opts = {})
     @opts = opts

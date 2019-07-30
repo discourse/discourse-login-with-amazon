@@ -21,5 +21,5 @@ register_asset 'stylesheets/login-with-amazon.scss'
 ].each { |path| load File.expand_path(path, __FILE__) }
 
 auth_provider authenticator: Auth::LoginWithAmazonAuthenticator.new,
-  icon: 'amazon',
-  frame_height: 600
+              icon: 'amazon',
+              frame_height: 600
