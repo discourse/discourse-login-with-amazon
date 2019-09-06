@@ -15,7 +15,6 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
       strategy.options[:client_id] = SiteSetting.login_with_amazon_client_id
       strategy.options[:client_secret] = SiteSetting.login_with_amazon_client_secret
       strategy.options[:scope] = SiteSetting.login_with_amazon_scope
-      strategy.options[:provider_ignores_state] = SiteSetting.login_with_amazon_ignore_state
     }
   end
 end
