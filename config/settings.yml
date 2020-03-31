@@ -10,3 +10,5 @@ plugins:
     secret: true
   login_with_amazon_scope:
     default: "profile"
+  login_with_amazon_overrides_email:
+    default: false

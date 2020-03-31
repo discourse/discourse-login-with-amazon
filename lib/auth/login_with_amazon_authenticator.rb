@@ -17,4 +17,9 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
       strategy.options[:scope] = SiteSetting.login_with_amazon_scope
     }
   end
+
+  def always_update_user_email?
+    SiteSetting.login_with_amazon_overrides_email
+  end
 end
+
