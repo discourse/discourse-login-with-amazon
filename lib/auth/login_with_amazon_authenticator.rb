@@ -22,4 +22,3 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
     SiteSetting.login_with_amazon_overrides_email
   end
 end
-
