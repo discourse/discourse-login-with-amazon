@@ -17,4 +17,4 @@ register_svg_icon "fab-amazon"
 ].each { |path| load File.expand_path(path, __FILE__) }
 
 auth_provider authenticator: Auth::LoginWithAmazonAuthenticator.new,
-              icon: 'fab-amazon',
+              icon: 'fab-amazon'
