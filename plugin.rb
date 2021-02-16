@@ -8,11 +8,7 @@
 
 gem 'omniauth-amazon', '1.0.1'
 
-if respond_to?(:register_svg_icon)
-  register_svg_icon "fab-amazon"
-end
-
-register_asset 'stylesheets/login-with-amazon.scss'
+register_svg_icon "fab-amazon"
 
 [
   "../lib/auth/login_with_amazon_authenticator.rb",
@@ -21,5 +17,4 @@ register_asset 'stylesheets/login-with-amazon.scss'
 ].each { |path| load File.expand_path(path, __FILE__) }
 
 auth_provider authenticator: Auth::LoginWithAmazonAuthenticator.new,
-              icon: 'fab-amazon',
-              frame_height: 600
+              icon: 'fab-amazon'
