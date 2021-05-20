@@ -21,4 +21,8 @@ class Auth::LoginWithAmazonAuthenticator < ::Auth::ManagedAuthenticator
   def always_update_user_email?
     SiteSetting.login_with_amazon_overrides_email
   end
+
+  def primary_email_verified?(auth)
+    SiteSetting.login_with_amazon_email_verified
+  end
 end
