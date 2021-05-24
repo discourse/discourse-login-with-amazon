@@ -14,4 +14,4 @@ plugins:
     default: false
   login_with_amazon_email_verified:
     hidden: true
-    default: false
+    default: true
