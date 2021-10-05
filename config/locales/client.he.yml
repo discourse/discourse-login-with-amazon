@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 he:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "עם Amazon"
+        message: "אימות באמצעות כניסה עם Amazon (נא לוודא שחוסמי חלונות קופצים אינם מופעלים)"
