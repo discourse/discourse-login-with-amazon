@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 sv:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "genom Amazon"
+        message: "Autentisering av inloggning genom Amazon (se till att popup -blockerare inte är aktiverade)"
