@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 ru:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "с помощью Amazon"
+        message: "Аутентификация с помощью входа через Amazon (убедитесь, что блокировщики всплывающих окон не включены)"
