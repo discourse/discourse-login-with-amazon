@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "使用 Amazon"
+        message: "使用“使用 Amazon 登录”进行身份验证（确保未启用弹出窗口阻止程序）"
