@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 fi:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "Amazonilla"
+        message: "Todennus Login with Amazonilla (varmista, että ponnahdusikkunoiden esto ei ole käytössä)"
