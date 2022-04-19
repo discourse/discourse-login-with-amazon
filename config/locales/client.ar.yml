@@ -9,5 +9,4 @@ ar:
     login:
       amazon:
         name: "Amazon"
-        title: "باستخدام Amazon"
         message: "المصادقة من خلال تسجيل الدخول باستخدام Amazon (تأكَّد من عدم تفعيل أدوات حظر النوافذ المنبثقة)"

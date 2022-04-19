@@ -9,5 +9,4 @@ ja:
     login:
       amazon:
         name: "Amazon"
-        title: "Amazon"
         message: "Amazon でログインを認証しています（ポップアップブロッカーが有効になっていないことを確認してください）"

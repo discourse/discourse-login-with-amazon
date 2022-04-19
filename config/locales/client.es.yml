@@ -9,5 +9,4 @@ es:
     login:
       amazon:
         name: "Amazon"
-        title: "con Amazon"
         message: "Autenticando con inicio de sesión con Amazon (asegúrate de que no haya bloqueadores de ventanas emergentes activados)"

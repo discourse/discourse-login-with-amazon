@@ -9,5 +9,5 @@ sv:
     login:
       amazon:
         name: "Amazon"
-        title: "genom Amazon"
+        title: "Logga in med Amazon"
         message: "Autentisering av inloggning genom Amazon (se till att popup -blockerare inte är aktiverade)"

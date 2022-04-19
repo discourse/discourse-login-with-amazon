@@ -9,5 +9,4 @@ it:
     login:
       amazon:
         name: "Amazon"
-        title: "con Amazon"
         message: "Autenticazione con Login with Amazon (assicurati che i blocchi di popup non siano abilitati)"

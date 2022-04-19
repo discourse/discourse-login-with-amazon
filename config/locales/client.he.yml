@@ -9,5 +9,5 @@ he:
     login:
       amazon:
         name: "Amazon"
-        title: "עם Amazon"
+        title: "כניסה עם אמזון"
         message: "אימות באמצעות כניסה עם Amazon (נא לוודא שחוסמי חלונות קופצים אינם מופעלים)"
