@@ -9,5 +9,4 @@ fr:
     login:
       amazon:
         name: "Amazon"
-        title: "avec Amazon"
         message: "Authentification avec la connexion à Amazon (assurez-vous qu'aucun bloqueur de fenêtres contextuelles n'est activé)"

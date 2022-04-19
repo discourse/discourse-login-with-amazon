@@ -9,5 +9,4 @@ de:
     login:
       amazon:
         name: "Amazon"
-        title: "mit Amazon"
         message: "Authentifizierung über „Anmelden mit Amazon“ (stelle sicher, dass Pop-up-Blocker nicht aktiviert sind)"
