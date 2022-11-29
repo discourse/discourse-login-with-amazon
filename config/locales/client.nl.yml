@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 nl:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "Aanmelden met Amazon"
+        message: "Verificatie met Aanmelden met Amazon (zorg dat pop-upblokkeringen niet zijn ingeschakeld)"
