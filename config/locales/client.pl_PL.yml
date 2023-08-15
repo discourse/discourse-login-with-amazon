@@ -5,3 +5,9 @@
 # https://translate.discourse.org/
 
 pl_PL:
+  js:
+    login:
+      amazon:
+        name: "Amazon"
+        title: "Zaloguj się przez Amazon"
+        message: "Uwierzytelnianie za pomocą Zaloguj się przez Amazon (upewnij się, że blokowanie wyskakujących okienek nie jest włączone)"
