@@ -6,6 +6,8 @@
 # authors: Alan Tan
 # url: https://github.com/discourse/discourse-login-with-amazon
 
+enabled_site_setting :enable_login_with_amazon
+
 gem "omniauth-amazon", "1.0.1"
 
 register_svg_icon "fab-amazon"
