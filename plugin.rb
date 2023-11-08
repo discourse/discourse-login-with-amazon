@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 # name: discourse-login-with-amazon
-# about: Enable Login via Login with Amazon
+# about: Enables login authentication via Login with Amazon
+# meta_topic_id: 117564
 # version: 0.0.1
 # authors: Alan Tan
 # url: https://github.com/discourse/discourse-login-with-amazon
