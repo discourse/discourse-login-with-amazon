@@ -3,6 +3,7 @@
 # Will submit patch upstream for this change
 OmniAuth::Strategies::Amazon.class_eval do
   def callback_url
-    full_host + script_name + callback_path
+    origin = ENV["REDIRECT_URL_ORIGIN"] || full_host
+    origin + script_name + callback_path
   end
 end
