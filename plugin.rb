@@ -13,10 +13,8 @@ gem "omniauth-amazon", "1.0.1"
 
 register_svg_icon "fab-amazon"
 
-%w[
-  ../lib/auth/login_with_amazon_authenticator.rb
-  ../lib/validators/enable_login_with_amazon_validator.rb
-  ../lib/omniauth/strategies/amazon.rb
-].each { |path| load File.expand_path(path, __FILE__) }
+require_relative "lib/auth/login_with_amazon_authenticator"
+require_relative "lib/validators/enable_login_with_amazon_validator"
+require_relative "lib/omniauth/strategies/amazon"
 
 auth_provider authenticator: Auth::LoginWithAmazonAuthenticator.new, icon: "fab-amazon"
