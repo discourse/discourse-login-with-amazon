@@ -9,8 +9,6 @@
 
 enabled_site_setting :enable_login_with_amazon
 
-gem "omniauth-amazon", "1.0.1"
-
 register_svg_icon "fab-amazon"
 
 require_relative "lib/auth/login_with_amazon_authenticator"
