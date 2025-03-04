@@ -1,10 +1,4 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
-pl_PL:
+pl:
   site_settings:
     enable_login_with_amazon: "Włącz logowanie za pomocą uwierzytelniania Amazon, wymaga `login with amazon client id` i `login with amazon client secret`."
     login_with_amazon_client_id: "Zaloguj się przy użyciu ID klienta Amazon"

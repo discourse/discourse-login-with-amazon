@@ -1,9 +1,3 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
 es:
   site_settings:
     enable_login_with_amazon: "Habilitar el inicio de sesión con la autenticación de Amazon, requiere «iniciar sesión con el id de cliente de amazon» e «iniciar sesión con el secreto de cliente de amazon»."

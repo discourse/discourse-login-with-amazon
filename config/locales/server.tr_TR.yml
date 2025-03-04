@@ -1,10 +1,4 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
-tr_TR:
+tr:
   site_settings:
     enable_login_with_amazon: "Amazon kimlik doğrulaması ile Giriş'i etkinleştirin, \"login with amazon client id\" ve \"login with amazon client secret\" gerektirir."
     login_with_amazon_client_id: "Amazon istemci kimliği ile giriş yapın"
