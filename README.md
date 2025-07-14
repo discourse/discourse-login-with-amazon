@@ -1,5 +1,8 @@
 # Login with Amazon Plugin
 
+> [!IMPORTANT]
+> This plugin has now been bundled into Discourse core. See: https://meta.discourse.org/t/bundling-more-popular-plugins-with-discourse-core/373574
+
 A plugin that enables authentication via Login with Amazon.
 
 For more information, please see: https://meta.discourse.org/t/login-with-amazon-plugin/117564
@@ -16,8 +19,4 @@ For more information, please see: https://meta.discourse.org/t/login-with-amazon
    - `login_required: false`
 6. start your local rails server as following:
    - ```% REDIRECT_URL_ORIGIN=http://localhost:4200 rails s```
-7. at this point, when you go to localhost:4200, you should be redirected to /login and be presented with a "Login With Amazon" button. Clicking on it should 
-take you to an authentication flow on amazon.com and redirect you in the end, to a logged in session at localhost: 4200.
-
-
-
+7. at this point, when you go to localhost:4200, you should be redirected to /login and be presented with a "Login With Amazon" button. Clicking on it should take you to an authentication flow on amazon.com and redirect you in the end, to a logged in session at localhost: 4200.
